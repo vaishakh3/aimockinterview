@@ -13,5 +13,6 @@
 
 1. Clone the repository.
 2. pip install requirements.txt
-3. python speechandvid.py
+3. CHange the Gemini API Key in the code(Use your own Gemini API Key).
+4. python app.py
 
