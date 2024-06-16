@@ -7,7 +7,7 @@ import time
 import cv2
 import threading
 
-os.environ["GENAI_API_KEY"] = "AIzaSyDzIBbNBYEFFDaj_JLIXJrzJ37bjlQCa0k"
+os.environ["GENAI_API_KEY"] = "Your Gemini API Key"
 genai.configure(api_key=os.environ["GENAI_API_KEY"])
 language = 'en'
 vid = cv2.VideoCapture(0)
